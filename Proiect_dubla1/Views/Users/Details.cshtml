@@ -1,0 +1,48 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject UserManager<User> UserManager
+@model Proiect_dubla1.Models.User
+
+<div class="profile-container">
+
+    <div class="profile-header-card">
+        <div class="avatar-wrap">
+            <img class="profile-avatar" src="@Model.ProfileImagePath" />
+
+            <div class="profile-firstname">@Model.FirstName</div>
+            <div class="profile-lastname">@Model.LastName</div>
+        </div>
+
+        <div class="profile-info">
+      
+            <span class="profile-username">@Model.UserName</span>
+
+            <div class="profile-meta">
+                <span>@Model.Age</span>
+                <span> @Model.RelationshipStatus</span>
+                <span>@Model.City, @Model.Country</span>
+                
+            </div>
+
+            <p class="profile-bio">@Model.Description</p>
+
+            @if (User.Identity.IsAuthenticated && UserManager.GetUserId(User) == Model.Id)
+            {
+                <a class="btn" asp-action="Edit" asp-route-id="@Model.Id">
+                    Edit profile
+                </a>
+            }
+        </div>
+    </div>
+
+    <h2 class="posts-title">@Model.FirstName's Posts</h2>
+
+    <div class="profile-posts-grid">
+        @foreach (var post in ViewBag.Posts)
+        {
+            <div class="profile-post-card">
+                <img src="@post.ImagePath" />
+            </div>
+        }
+    </div>
+
+</div>

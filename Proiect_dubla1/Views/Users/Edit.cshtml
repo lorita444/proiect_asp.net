@@ -1,0 +1,57 @@
+﻿@model Proiect_dubla1.Models.User
+
+<p class="reg_text">Edit Profile</p>
+
+<form asp-action="Edit" method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="Id" />
+    <div class="edit-form">
+        <div>
+            <label>Schimbă poza de profil</label>
+            <input type="file" name="profileImage" />
+        </div>
+        
+
+        <div>
+            <label>First Name</label>
+            <input asp-for="FirstName" />
+        </div>
+
+        <div>
+            <label>Last Name</label>
+            <input asp-for="LastName" />
+        </div>
+
+        <div>
+            <label>Username</label>
+            <input asp-for="UserName" />
+        </div>
+
+        <div>
+            <label>Age</label>
+            <input asp-for="Age" type="number" />
+        </div>
+
+        <div>
+            <label>Relationship Status</label>
+            <input asp-for="RelationshipStatus" />
+        </div>
+
+        <div>
+            <label>City</label>
+            <input asp-for="City" />
+        </div>
+
+        <div>
+            <label>Country</label>
+            <input asp-for="Country" />
+        </div>
+
+        <div>
+            <label>Bio</label>
+            <input style="height:100px" asp-for="Description" />
+        </div>
+
+    </div>
+    
+    <button class="btn btn2"type="submit">Save</button>
+</form>

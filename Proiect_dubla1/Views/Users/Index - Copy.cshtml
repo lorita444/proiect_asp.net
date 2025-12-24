@@ -1,0 +1,30 @@
+﻿@model IEnumerable<Proiect_dubla1.Models.User>
+
+<h2>Utilizatori</h2>
+
+<form method="get">
+    <input type="text" name="search" value="@ViewBag.Search" placeholder="Caută după nume" />
+    <button type="submit">Caută</button>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nume</th>
+            <th>Rol</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.FullName</td>
+                <td>@user.Role</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@user.UserId">Profil</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

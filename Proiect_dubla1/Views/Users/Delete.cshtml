@@ -1,0 +1,10 @@
+﻿@model Proiect_dubla1.Models.User
+
+<h2>Delete account</h2>
+
+<p>Sigur vrei să ștergi contul lui <strong>@Model.UserName</strong>?</p>
+
+<form asp-action="DeleteConfirmed" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+</form>

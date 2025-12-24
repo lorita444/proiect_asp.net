@@ -1,0 +1,35 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject UserManager<User> UserManager
+@{
+    ViewData["Title"] = "Home";
+}
+<div class="=container">
+    <div class="text1">LOVE</div>
+    <div class="text2">YOURSELF</div>
+    <div class="text3">
+        . . . AND OTHERS TOO</div>
+</div>
+
+
+@if (User.Identity.IsAuthenticated)
+{   <div class="text_index">
+        <p>Welcome, @User.Identity.Name!</p>
+        <a asp-controller="Users"
+           asp-action="Details"
+           asp-route-id="@UserManager.GetUserId(User)"
+           class="text_index2">
+            Click here to view your profile!
+        </a>
+
+    </div>
+}
+else
+{
+    <h3 class="join">JOIN US!</h3>
+
+    <a asp-controller="Account" asp-action="Login" class="btn btn1">Login</a>
+
+
+    <a asp-controller="Account" asp-action="Register" class="btn btn1">Sign up!</a>
+
+}
