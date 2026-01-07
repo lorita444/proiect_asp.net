@@ -12,5 +12,7 @@ namespace Proiect_dubla1.Models
         public string FollowedId { get; set; }
         [ForeignKey("FollowedId")]
         public User Followed { get; set; }
+
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
     }
 }

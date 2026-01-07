@@ -42,19 +42,23 @@ public class UsersController : Controller
     //GET: /Users/Details/stringId
     public IActionResult Details(string id)
     {
-        var user = _context.Users.FirstOrDefault(u => u.Id == id);
+        var profile = _context.Users.FirstOrDefault(u => u.Id == id);
+        if (profile == null) return NotFound();
 
-        if (user == null)
-            return NotFound();
+        var currentUserId = _userManager.GetUserId(User); // ai nevoie de UserManager<User> injectat
 
-        // Obține postările utilizatorului
-        var posts = _context.Posts
-            .Where(p => p.UserId == id)
-            .ToList();
+        ViewBag.IsOwnProfile = !string.IsNullOrEmpty(currentUserId) && currentUserId == id;
 
-        ViewBag.Posts = posts;
+        ViewBag.IsFollowing = !string.IsNullOrEmpty(currentUserId) &&
+            _context.Follows.Any(f => f.FollowerId == currentUserId && f.FollowedId == id);
 
-        return View(user);
+        ViewBag.FollowersCount = _context.Follows.Count(f => f.FollowedId == id);
+        ViewBag.FollowingCount = _context.Follows.Count(f => f.FollowerId == id);
+
+        // posts:
+        ViewBag.Posts = _context.Posts.Where(p => p.UserId == id).ToList();
+
+        return View(profile);
     }
 
     public IActionResult Edit(string id)

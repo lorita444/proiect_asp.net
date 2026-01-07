@@ -282,4 +282,5 @@ C:\Users\lorita\source\repos\Proiect_dubla1\Proiect_dubla1\obj\Debug\net9.0\comp
 C:\Users\lorita\source\repos\Proiect_dubla1\Proiect_dubla1\obj\Debug\net9.0\compressed\nezrqnk58p-muycvpuwrr.gz
 C:\Users\lorita\source\repos\Proiect_dubla1\Proiect_dubla1\obj\Debug\net9.0\compressed\v0zgfp0y55-87fc7y1x7t.gz
 C:\Users\lorita\source\repos\Proiect_dubla1\Proiect_dubla1\obj\Debug\net9.0\compressed\yfc7ypekbg-mlv21k5csn.gz
-C:\Users\lorita\source\repos\Proiect_dubla1\Proiect_dubla1\obj\Debug\net9.0\compressed\k6vwcperkn-9vl0z81o2u.gz
+C:\Users\lorita\source\repos\Proiect_dubla1\Proiect_dubla1\obj\Debug\net9.0\Proiect_dubla1.sourcelink.json
+C:\Users\lorita\source\repos\Proiect_dubla1\Proiect_dubla1\obj\Debug\net9.0\compressed\k6vwcperkn-3q2ca1kitz.gz

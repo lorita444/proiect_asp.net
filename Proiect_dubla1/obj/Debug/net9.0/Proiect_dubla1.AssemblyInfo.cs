@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Proiect_dubla1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0daa3b9a89317f5f0678016dee9e9e6d24c2690")]
 [assembly: System.Reflection.AssemblyProductAttribute("Proiect_dubla1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Proiect_dubla1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

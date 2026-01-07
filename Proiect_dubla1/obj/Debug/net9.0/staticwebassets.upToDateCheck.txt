@@ -1,4 +1,8 @@
+wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\img\a0880d81-796e-46cd-8767-09dee610151b.png
+wwwroot\img\cd57c530-b396-4a32-b86b-f298ee628ed9.jpg
+wwwroot\img\e1890e9c-da58-4df9-bf45-b9b85df99892.jpeg
 wwwroot\img\logo.png
 wwwroot\img\new_user.png
 wwwroot\js\site.js
@@ -62,7 +66,7 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
-wwwroot\css\site.css
+C:\Users\lorita\source\repos\Proiect_dubla1\Proiect_dubla1\wwwroot\css\site.css
 C:\Users\lorita\source\repos\Proiect_dubla1\Proiect_dubla1\wwwroot\favicon.ico
 C:\Users\lorita\source\repos\Proiect_dubla1\Proiect_dubla1\wwwroot\js\site.js
 C:\Users\lorita\source\repos\Proiect_dubla1\Proiect_dubla1\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
@@ -124,4 +128,3 @@ C:\Users\lorita\source\repos\Proiect_dubla1\Proiect_dubla1\wwwroot\lib\jquery\di
 C:\Users\lorita\source\repos\Proiect_dubla1\Proiect_dubla1\wwwroot\lib\jquery\dist\jquery.slim.min.js
 C:\Users\lorita\source\repos\Proiect_dubla1\Proiect_dubla1\wwwroot\lib\jquery\dist\jquery.slim.min.map
 C:\Users\lorita\source\repos\Proiect_dubla1\Proiect_dubla1\wwwroot\lib\jquery\LICENSE.txt
-C:\Users\lorita\source\repos\Proiect_dubla1\Proiect_dubla1\wwwroot\css\site.css

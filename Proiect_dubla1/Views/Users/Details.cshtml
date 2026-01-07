@@ -16,6 +16,31 @@
       
             <span class="profile-username">@Model.UserName</span>
 
+            <div class="profile-stats">
+                <span><strong>@ViewBag.FollowersCount</strong> followers</span>
+                <span><strong>@ViewBag.FollowingCount</strong> following</span>
+            </div>
+
+            @if (User.Identity.IsAuthenticated && !(bool)ViewBag.IsOwnProfile)
+            {
+                if ((bool)ViewBag.IsFollowing)
+                {
+                    <form asp-controller="Follows" asp-action="Unfollow" asp-route-id="@Model.Id" method="post">
+                        @Html.AntiForgeryToken()
+                        <button type="submit" class="btn btn-outline-dark">Unfollow</button>
+                    </form>
+                }
+                else
+                {
+                    <form asp-controller="Follows" asp-action="Follow" asp-route-id="@Model.Id" method="post">
+                        @Html.AntiForgeryToken()
+                        <button type="submit" class="btn btn-dark">Follow</button>
+                    </form>
+                }
+            }
+
+
+
             <div class="profile-meta">
                 <span>@Model.Age</span>
                 <span> @Model.RelationshipStatus</span>

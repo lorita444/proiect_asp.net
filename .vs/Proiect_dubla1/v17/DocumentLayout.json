@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\lorita\\source\\repos\\Proiect_dubla1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|c:\\users\\lorita\\source\\repos\\proiect_dubla1\\proiect_dubla1\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|solutionrelative:proiect_dubla1\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|c:\\users\\lorita\\source\\repos\\proiect_dubla1\\proiect_dubla1\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|solutionrelative:proiect_dubla1\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|c:\\users\\lorita\\source\\repos\\proiect_dubla1\\proiect_dubla1\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|solutionrelative:proiect_dubla1\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|c:\\users\\lorita\\source\\repos\\proiect_dubla1\\proiect_dubla1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|solutionrelative:proiect_dubla1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|c:\\users\\lorita\\source\\repos\\proiect_dubla1\\proiect_dubla1\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|solutionrelative:proiect_dubla1\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|c:\\users\\lorita\\source\\repos\\proiect_dubla1\\proiect_dubla1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|solutionrelative:proiect_dubla1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|c:\\users\\lorita\\source\\repos\\proiect_dubla1\\proiect_dubla1\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|solutionrelative:proiect_dubla1\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|c:\\users\\lorita\\source\\repos\\proiect_dubla1\\proiect_dubla1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|solutionrelative:proiect_dubla1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|c:\\users\\lorita\\source\\repos\\proiect_dubla1\\proiect_dubla1\\controllers\\followscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|solutionrelative:proiect_dubla1\\controllers\\followscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|c:\\users\\lorita\\source\\repos\\proiect_dubla1\\proiect_dubla1\\models\\follow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|solutionrelative:proiect_dubla1\\models\\follow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,79 +35,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\lorita\\source\\repos\\Proiect_dubla1\\Proiect_dubla1\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "Proiect_dubla1\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\lorita\\source\\repos\\Proiect_dubla1\\Proiect_dubla1\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "Proiect_dubla1\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAADwv08AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T19:37:38.253Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\lorita\\source\\repos\\Proiect_dubla1\\Proiect_dubla1\\Views\\Users\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Proiect_dubla1\\Views\\Users\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\lorita\\source\\repos\\Proiect_dubla1\\Proiect_dubla1\\Views\\Users\\Edit.cshtml",
-              "RelativeToolTip": "Proiect_dubla1\\Views\\Users\\Edit.cshtml",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAIwBkAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-24T18:54:55.607Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\lorita\\source\\repos\\Proiect_dubla1\\Proiect_dubla1\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Proiect_dubla1\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\lorita\\source\\repos\\Proiect_dubla1\\Proiect_dubla1\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Proiect_dubla1\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACIAAACqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-24T18:53:01.91Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\lorita\\source\\repos\\Proiect_dubla1\\Proiect_dubla1\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Proiect_dubla1\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\lorita\\source\\repos\\Proiect_dubla1\\Proiect_dubla1\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Proiect_dubla1\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-24T18:49:57.714Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\lorita\\source\\repos\\Proiect_dubla1\\Proiect_dubla1\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "Proiect_dubla1\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\lorita\\source\\repos\\Proiect_dubla1\\Proiect_dubla1\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "Proiect_dubla1\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAMQAAAAAAAAAAAAAwNIAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-12-17T12:57:44.947Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\lorita\\source\\repos\\Proiect_dubla1\\Proiect_dubla1\\Views\\Users\\Details.cshtml",
               "RelativeDocumentMoniker": "Proiect_dubla1\\Views\\Users\\Details.cshtml",
               "ToolTip": "C:\\Users\\lorita\\source\\repos\\Proiect_dubla1\\Proiect_dubla1\\Views\\Users\\Details.cshtml",
               "RelativeToolTip": "Proiect_dubla1\\Views\\Users\\Details.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAQwB0AAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-17T12:39:14.874Z",
+              "WhenOpened": "2026-01-07T16:43:42.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\lorita\\source\\repos\\Proiect_dubla1\\Proiect_dubla1\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Proiect_dubla1\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\lorita\\source\\repos\\Proiect_dubla1\\Proiect_dubla1\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Proiect_dubla1\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T16:32:30.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FollowsController.cs",
+              "DocumentMoniker": "C:\\Users\\lorita\\source\\repos\\Proiect_dubla1\\Proiect_dubla1\\Controllers\\FollowsController.cs",
+              "RelativeDocumentMoniker": "Proiect_dubla1\\Controllers\\FollowsController.cs",
+              "ToolTip": "C:\\Users\\lorita\\source\\repos\\Proiect_dubla1\\Proiect_dubla1\\Controllers\\FollowsController.cs",
+              "RelativeToolTip": "Proiect_dubla1\\Controllers\\FollowsController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T16:31:10.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Follow.cs",
+              "DocumentMoniker": "C:\\Users\\lorita\\source\\repos\\Proiect_dubla1\\Proiect_dubla1\\Models\\Follow.cs",
+              "RelativeDocumentMoniker": "Proiect_dubla1\\Models\\Follow.cs",
+              "ToolTip": "C:\\Users\\lorita\\source\\repos\\Proiect_dubla1\\Proiect_dubla1\\Models\\Follow.cs",
+              "RelativeToolTip": "Proiect_dubla1\\Models\\Follow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T16:12:56.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\lorita\\source\\repos\\Proiect_dubla1\\Proiect_dubla1\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Proiect_dubla1\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\lorita\\source\\repos\\Proiect_dubla1\\Proiect_dubla1\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Proiect_dubla1\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAADwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T19:37:38.253Z",
               "EditorCaption": ""
             }
           ]
