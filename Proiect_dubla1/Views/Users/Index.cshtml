@@ -1,11 +1,15 @@
 ﻿@model IEnumerable<Proiect_dubla1.Models.User>
 
 
+
+<div class="text_search">Users</div>
+
+<br />
 <form class="search_form" method="get">
     <input type="text" class="search_bar" name="search" value="@ViewBag.Search" placeholder="Type a name" />
     <button type="submit" class="btn">Search</button>
 </form>
-<div class="text_search">Users</div>
+
 <table class="table tabel-cautare">
     <tbody>
         @foreach (var user in Model)
@@ -20,3 +24,5 @@
         }
     </tbody>
 </table>
+
+

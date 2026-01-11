@@ -1,9 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Proiect_dubla1.Data;
 using Proiect_dubla1.Models;
-using Microsoft.AspNetCore.Identity;
-
+using System.Security.Claims;
 using UserEntity = Proiect_dubla1.Models.User;
 
 public class UsersController : Controller
@@ -40,26 +40,39 @@ public class UsersController : Controller
     }
 
     //GET: /Users/Details/stringId
-    public IActionResult Details(string id)
+    public IActionResult Details(string? id)
     {
+        // Dacă cineva intră pe /Users/Details fără id, îl ducem pe profilul lui (dacă e logat)
+        if (string.IsNullOrWhiteSpace(id))
+        {
+            var currentUserId = _userManager.GetUserId(User);
+            if (string.IsNullOrEmpty(currentUserId))
+                return RedirectToAction("Login", "Account"); // sau Home/Index, cum vrei
+
+            return RedirectToAction(nameof(Details), new { id = currentUserId });
+        }
+
         var profile = _context.Users.FirstOrDefault(u => u.Id == id);
         if (profile == null) return NotFound();
 
-        var currentUserId = _userManager.GetUserId(User); // ai nevoie de UserManager<User> injectat
+        var currentUserId2 = _userManager.GetUserId(User);
 
-        ViewBag.IsOwnProfile = !string.IsNullOrEmpty(currentUserId) && currentUserId == id;
+        ViewBag.IsOwnProfile = !string.IsNullOrEmpty(currentUserId2) && currentUserId2 == id;
 
-        ViewBag.IsFollowing = !string.IsNullOrEmpty(currentUserId) &&
-            _context.Follows.Any(f => f.FollowerId == currentUserId && f.FollowedId == id);
+        ViewBag.IsFollowing = !string.IsNullOrEmpty(currentUserId2) &&
+            _context.Follows.Any(f => f.FollowerId == currentUserId2 && f.FollowedId == id);
 
         ViewBag.FollowersCount = _context.Follows.Count(f => f.FollowedId == id);
         ViewBag.FollowingCount = _context.Follows.Count(f => f.FollowerId == id);
 
-        // posts:
-        ViewBag.Posts = _context.Posts.Where(p => p.UserId == id).ToList();
+        ViewBag.Posts = _context.Posts
+            .Where(p => p.UserId == id)
+            .OrderByDescending(p => p.CreatedAt)
+            .ToList();
 
         return View(profile);
     }
+
 
     public IActionResult Edit(string id)
     {
@@ -139,8 +152,61 @@ public class UsersController : Controller
 
         return RedirectToAction("Index");
     }
-    
 
+    public async Task<IActionResult> Followers(string id)
+    {
+        if (string.IsNullOrWhiteSpace(id)) return NotFound();
+
+        var me = User.FindFirstValue(ClaimTypes.NameIdentifier); // poate fi null dacă nu e logat
+
+        // user-ul al cărui profil îl vezi
+        var profile = await _context.Users.FirstOrDefaultAsync(u => u.Id == id);
+        if (profile == null) return NotFound();
+
+        // lista followerilor (cei care au FollowedId = id)
+        var followers = await _context.Follows
+            .Where(f => f.FollowedId == id)
+            .Join(_context.Users,
+                  f => f.FollowerId,
+                  u => u.Id,
+                  (f, u) => new FollowerVm
+                  {
+                      UserId = u.Id,
+                      UserName = u.UserName,
+                      ProfileImagePath = u.ProfileImagePath,
+                      IsFollowedByMe = me != null && _context.Follows.Any(x => x.FollowerId == me && x.FollowedId == u.Id)
+                  })
+            .ToListAsync();
+
+        ViewBag.ProfileUser = profile;  // ca să afișezi “Followers of X”
+        return View(followers);
+    }
+    public async Task<IActionResult> Following(string id)
+    {
+        if (string.IsNullOrWhiteSpace(id)) return NotFound();
+
+        var me = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+        var profile = await _context.Users.FirstOrDefaultAsync(u => u.Id == id);
+        if (profile == null) return NotFound();
+
+        var following = await _context.Follows
+            .Where(f => f.FollowerId == id)
+            .Join(_context.Users,
+                  f => f.FollowedId,
+                  u => u.Id,
+                  (f, u) => new FollowerVm
+                  {
+                      UserId = u.Id,
+                      UserName = u.UserName,
+                      ProfileImagePath = u.ProfileImagePath,
+                      IsFollowedByMe = me != null && _context.Follows.Any(x => x.FollowerId == me && x.FollowedId == u.Id)
+                  })
+            .ToListAsync();
+
+        ViewBag.ProfileUser = profile;
+        return View(following);
+    }
 
 
 

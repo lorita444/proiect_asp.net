@@ -1,0 +1,31 @@
+﻿@foreach (var p in Model)
+{
+    <div style="border:1px solid #ddd; padding:10px; margin:10px 0;">
+        <div style="display:flex; justify-content:space-between;">
+            <b>@(p.User?.UserName ?? p.UserId)</b>
+            <small class="post-time">@p.CreatedAt.ToString("dd.MM.yyyy HH:mm")</small>
+        </div>
+
+        @if (p.Type == Proiect_dubla1.Models.PostType.Thought)
+        {
+            <p>@p.Content</p>
+        }
+        else
+        {
+            <img src="@p.ImagePath" style="max-width:100%; border-radius:8px;" />
+            @if (!string.IsNullOrWhiteSpace(p.Caption))
+            {
+                <p>@p.Caption</p>
+            }
+        }
+    </div>
+}
+
+<style>
+    .post-time {
+        font-size: 12px;
+        color: #777;
+    }
+</style>
+
+

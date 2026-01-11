@@ -13,13 +13,20 @@
         </div>
 
         <div class="profile-info">
-      
             <span class="profile-username">@Model.UserName</span>
 
             <div class="profile-stats">
-                <span><strong>@ViewBag.FollowersCount</strong> followers</span>
-                <span><strong>@ViewBag.FollowingCount</strong> following</span>
+                <a class="text-dark" style="text-decoration:none;"
+                   asp-controller="Users" asp-action="Followers" asp-route-id="@Model.Id">
+                    <strong>@ViewBag.FollowersCount</strong> followers
+                </a>
+
+                <a class="text-dark" style="text-decoration:none; margin-left:12px;"
+                   asp-controller="Users" asp-action="Following" asp-route-id="@Model.Id">
+                    <strong>@ViewBag.FollowingCount</strong> following
+                </a>
             </div>
+
 
             @if (User.Identity.IsAuthenticated && !(bool)ViewBag.IsOwnProfile)
             {
@@ -39,33 +46,76 @@
                 }
             }
 
-
-
             <div class="profile-meta">
                 <span>@Model.Age</span>
-                <span> @Model.RelationshipStatus</span>
+                <span>@Model.RelationshipStatus</span>
                 <span>@Model.City, @Model.Country</span>
-                
             </div>
 
             <p class="profile-bio">@Model.Description</p>
 
             @if (User.Identity.IsAuthenticated && UserManager.GetUserId(User) == Model.Id)
             {
-                <a class="btn" asp-action="Edit" asp-route-id="@Model.Id">
-                    Edit profile
-                </a>
+                <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:10px;">
+                    <a class="btn btn-outline-dark" asp-action="Edit" asp-route-id="@Model.Id">Edit profile</a>
+
+                    <a class="btn btn-dark" asp-controller="Posts" asp-action="CreatePost">Add Post</a>
+                    <a class="btn btn-outline-dark" asp-controller="Posts" asp-action="CreateThought">Add Thought</a>
+                </div>
             }
         </div>
     </div>
 
     <h2 class="posts-title">@Model.FirstName's Posts</h2>
 
-    <div class="profile-posts-grid">
+    <div class="profile-posts-container">
         @foreach (var post in ViewBag.Posts)
         {
             <div class="profile-post-card">
-                <img src="@post.ImagePath" />
+
+                <!-- HEADER: user + tip + data -->
+                <div class="post-header">
+                    <div class="post-left">
+                        <span class="post-user">@Model.UserName</span>
+
+                        <span class="post-type">
+                            @(post.Type == Proiect_dubla1.Models.PostType.Thought ? "Thought" : "Post")
+                        </span>
+                    </div>
+
+                    <div class="post-date">
+                        @post.CreatedAt.ToString("dd.MM.yyyy HH:mm")
+                    </div>
+                </div>
+
+                <!-- BODY -->
+                @if (post.Type == Proiect_dubla1.Models.PostType.Thought)
+                {
+                    <div class="post-body thought-body">
+                        @post.Content
+                    </div>
+                }
+                else
+                {
+                    @* Imagine crop + fallback *@
+                    if (!string.IsNullOrWhiteSpace((string)post.ImagePath))
+                    {
+                        <img class="post-image" src="@post.ImagePath" alt="Post image" />
+                    }
+                    else
+                    {
+                        <div class="post-body" style="color:#a00;">
+                            Imagine lipsă / path invalid
+                        </div>
+                    }
+
+                    @if (!string.IsNullOrWhiteSpace((string)post.Caption))
+                    {
+                        <div class="post-body post-caption">
+                            @post.Caption
+                        </div>
+                    }
+                }
             </div>
         }
     </div>

@@ -1,0 +1,48 @@
+﻿@{
+    ViewData["Title"] = "Post cu poză";
+}
+
+<h2>Post cu poză</h2>
+
+<form asp-action="CreatePost" method="post" enctype="multipart/form-data">
+    @Html.AntiForgeryToken()
+
+    <div class="mb-3">
+        <label class="form-label">Imagine</label>
+        <input id="imageInput"
+               type="file"
+               name="image"
+               class="form-control"
+               accept="image/*" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Caption (opțional)</label>
+        <input type="text"
+               name="caption"
+               class="form-control"
+               value="@(ViewBag.Caption ?? "")" />
+    </div>
+
+    <button id="submitBtn" type="submit" class="btn btn-dark" disabled>
+        Post
+    </button>
+</form>
+<script>
+    const imageInput = document.getElementById("imageInput");
+    const submitBtn = document.getElementById("submitBtn");
+
+    function updateButtonState() {
+        if (imageInput.files && imageInput.files.length > 0) {
+            submitBtn.disabled = false;
+        } else {
+            submitBtn.disabled = true;
+        }
+    }
+
+    imageInput.addEventListener("change", updateButtonState);
+    updateButtonState();
+</script>
+
+
+<div asp-validation-summary="All"></div>

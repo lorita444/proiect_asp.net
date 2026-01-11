@@ -5128,23 +5128,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lorita\\.nuget\\packages\\": {},
+    "C:\\Users\\mirun\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lorita\\source\\repos\\Proiect_dubla1\\Proiect_dubla1\\Proiect_dubla1.csproj",
+      "projectUniqueName": "C:\\Users\\mirun\\source\\repos\\proiect_asp.net\\Proiect_dubla1\\Proiect_dubla1.csproj",
       "projectName": "Proiect_dubla1",
-      "projectPath": "C:\\Users\\lorita\\source\\repos\\Proiect_dubla1\\Proiect_dubla1\\Proiect_dubla1.csproj",
-      "packagesPath": "C:\\Users\\lorita\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lorita\\source\\repos\\Proiect_dubla1\\Proiect_dubla1\\obj\\",
+      "projectPath": "C:\\Users\\mirun\\source\\repos\\proiect_asp.net\\Proiect_dubla1\\Proiect_dubla1.csproj",
+      "packagesPath": "C:\\Users\\mirun\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mirun\\source\\repos\\proiect_asp.net\\Proiect_dubla1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\lorita\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mirun\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5219,7 +5219,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

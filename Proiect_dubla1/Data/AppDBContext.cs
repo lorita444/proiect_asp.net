@@ -76,8 +76,4 @@ public class AppDbContext : IdentityDbContext<User>
         .OnDelete(DeleteBehavior.Restrict);
     }
 
-
-
-
-
 }

@@ -1,26 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\lorita\\source\\repos\\Proiect_dubla1\\",
+  "WorkspaceRootPath": "C:\\Users\\mirun\\source\\repos\\proiect_asp.net\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|c:\\users\\lorita\\source\\repos\\proiect_dubla1\\proiect_dubla1\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|solutionrelative:proiect_dubla1\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|c:\\users\\mirun\\source\\repos\\proiect_asp.net\\proiect_dubla1\\controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|solutionrelative:proiect_dubla1\\controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|c:\\users\\lorita\\source\\repos\\proiect_dubla1\\proiect_dubla1\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|c:\\users\\mirun\\source\\repos\\proiect_asp.net\\proiect_dubla1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|solutionrelative:proiect_dubla1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|c:\\users\\mirun\\source\\repos\\proiect_asp.net\\proiect_dubla1\\views\\posts\\foryou.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|solutionrelative:proiect_dubla1\\views\\posts\\foryou.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|c:\\users\\mirun\\source\\repos\\proiect_asp.net\\proiect_dubla1\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|solutionrelative:proiect_dubla1\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|c:\\users\\mirun\\source\\repos\\proiect_asp.net\\proiect_dubla1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|solutionrelative:proiect_dubla1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|c:\\users\\mirun\\source\\repos\\proiect_asp.net\\proiect_dubla1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|solutionrelative:proiect_dubla1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|c:\\users\\mirun\\source\\repos\\proiect_asp.net\\proiect_dubla1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|solutionrelative:proiect_dubla1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|c:\\users\\mirun\\source\\repos\\proiect_asp.net\\proiect_dubla1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|solutionrelative:proiect_dubla1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|c:\\users\\mirun\\source\\repos\\proiect_asp.net\\proiect_dubla1\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|solutionrelative:proiect_dubla1\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|c:\\users\\lorita\\source\\repos\\proiect_dubla1\\proiect_dubla1\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|solutionrelative:proiect_dubla1\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|c:\\users\\mirun\\source\\repos\\proiect_asp.net\\proiect_dubla1\\views\\posts\\createpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|solutionrelative:proiect_dubla1\\views\\posts\\createpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|c:\\users\\lorita\\source\\repos\\proiect_dubla1\\proiect_dubla1\\controllers\\followscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|solutionrelative:proiect_dubla1\\controllers\\followscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|c:\\users\\mirun\\source\\repos\\proiect_asp.net\\proiect_dubla1\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|solutionrelative:proiect_dubla1\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|c:\\users\\lorita\\source\\repos\\proiect_dubla1\\proiect_dubla1\\models\\follow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|solutionrelative:proiect_dubla1\\models\\follow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|c:\\users\\mirun\\source\\repos\\proiect_asp.net\\proiect_dubla1\\views\\posts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{32673B01-3A4C-43A0-ABE2-59619598512A}|Proiect_dubla1\\Proiect_dubla1.csproj|solutionrelative:proiect_dubla1\\views\\posts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,72 +58,181 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1099,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\lorita\\source\\repos\\Proiect_dubla1\\Proiect_dubla1\\Views\\Users\\Details.cshtml",
-              "RelativeDocumentMoniker": "Proiect_dubla1\\Views\\Users\\Details.cshtml",
-              "ToolTip": "C:\\Users\\lorita\\source\\repos\\Proiect_dubla1\\Proiect_dubla1\\Views\\Users\\Details.cshtml",
-              "RelativeToolTip": "Proiect_dubla1\\Views\\Users\\Details.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAiwCgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-07T16:43:42.979Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\lorita\\source\\repos\\Proiect_dubla1\\Proiect_dubla1\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Proiect_dubla1\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\lorita\\source\\repos\\Proiect_dubla1\\Proiect_dubla1\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Proiect_dubla1\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T16:32:30.194Z",
+              "Title": "ForYou.cshtml",
+              "DocumentMoniker": "C:\\Users\\mirun\\source\\repos\\proiect_asp.net\\Proiect_dubla1\\Views\\Posts\\ForYou.cshtml",
+              "RelativeDocumentMoniker": "Proiect_dubla1\\Views\\Posts\\ForYou.cshtml",
+              "ToolTip": "C:\\Users\\mirun\\source\\repos\\proiect_asp.net\\Proiect_dubla1\\Views\\Posts\\ForYou.cshtml",
+              "RelativeToolTip": "Proiect_dubla1\\Views\\Posts\\ForYou.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAIwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-11T17:44:29.032Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "FollowsController.cs",
-              "DocumentMoniker": "C:\\Users\\lorita\\source\\repos\\Proiect_dubla1\\Proiect_dubla1\\Controllers\\FollowsController.cs",
-              "RelativeDocumentMoniker": "Proiect_dubla1\\Controllers\\FollowsController.cs",
-              "ToolTip": "C:\\Users\\lorita\\source\\repos\\Proiect_dubla1\\Proiect_dubla1\\Controllers\\FollowsController.cs",
-              "RelativeToolTip": "Proiect_dubla1\\Controllers\\FollowsController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T16:31:10.862Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mirun\\source\\repos\\proiect_asp.net\\Proiect_dubla1\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "Proiect_dubla1\\Views\\Users\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mirun\\source\\repos\\proiect_asp.net\\Proiect_dubla1\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "Proiect_dubla1\\Views\\Users\\Index.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-11T17:36:43.782Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Follow.cs",
-              "DocumentMoniker": "C:\\Users\\lorita\\source\\repos\\Proiect_dubla1\\Proiect_dubla1\\Models\\Follow.cs",
-              "RelativeDocumentMoniker": "Proiect_dubla1\\Models\\Follow.cs",
-              "ToolTip": "C:\\Users\\lorita\\source\\repos\\Proiect_dubla1\\Proiect_dubla1\\Models\\Follow.cs",
-              "RelativeToolTip": "Proiect_dubla1\\Models\\Follow.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T16:12:56.5Z",
+              "DocumentIndex": 5,
+              "Title": "bootstrap-reboot.min.css",
+              "DocumentMoniker": "C:\\Users\\mirun\\source\\repos\\proiect_asp.net\\Proiect_dubla1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+              "RelativeDocumentMoniker": "Proiect_dubla1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+              "ToolTip": "C:\\Users\\mirun\\source\\repos\\proiect_asp.net\\Proiect_dubla1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+              "RelativeToolTip": "Proiect_dubla1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-11T17:36:24.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "bootstrap-reboot.css.map",
+              "DocumentMoniker": "C:\\Users\\mirun\\source\\repos\\proiect_asp.net\\Proiect_dubla1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+              "RelativeDocumentMoniker": "Proiect_dubla1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+              "ToolTip": "C:\\Users\\mirun\\source\\repos\\proiect_asp.net\\Proiect_dubla1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+              "RelativeToolTip": "Proiect_dubla1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAD8ugAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-01-11T17:36:13.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "bootstrap-reboot.css",
+              "DocumentMoniker": "C:\\Users\\mirun\\source\\repos\\proiect_asp.net\\Proiect_dubla1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+              "RelativeDocumentMoniker": "Proiect_dubla1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+              "ToolTip": "C:\\Users\\mirun\\source\\repos\\proiect_asp.net\\Proiect_dubla1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+              "RelativeToolTip": "Proiect_dubla1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+              "ViewState": "AgIAABUCAAAAAAAAAAAcwCACAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-11T17:36:08.849Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\lorita\\source\\repos\\Proiect_dubla1\\Proiect_dubla1\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "Proiect_dubla1\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\lorita\\source\\repos\\Proiect_dubla1\\Proiect_dubla1\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "Proiect_dubla1\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAAADwAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T19:37:38.253Z",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\mirun\\source\\repos\\proiect_asp.net\\Proiect_dubla1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Proiect_dubla1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\mirun\\source\\repos\\proiect_asp.net\\Proiect_dubla1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Proiect_dubla1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAIwB4AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-11T17:33:45.167Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PostsController.cs",
+              "DocumentMoniker": "C:\\Users\\mirun\\source\\repos\\proiect_asp.net\\Proiect_dubla1\\Controllers\\PostsController.cs",
+              "RelativeDocumentMoniker": "Proiect_dubla1\\Controllers\\PostsController.cs",
+              "ToolTip": "C:\\Users\\mirun\\source\\repos\\proiect_asp.net\\Proiect_dubla1\\Controllers\\PostsController.cs",
+              "RelativeToolTip": "Proiect_dubla1\\Controllers\\PostsController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T17:19:27.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\mirun\\source\\repos\\proiect_asp.net\\Proiect_dubla1\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Proiect_dubla1\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\mirun\\source\\repos\\proiect_asp.net\\Proiect_dubla1\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Proiect_dubla1\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAOgAAAAAAAAAAAArwPMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-11T16:48:13.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreatePost.cshtml",
+              "DocumentMoniker": "C:\\Users\\mirun\\source\\repos\\proiect_asp.net\\Proiect_dubla1\\Views\\Posts\\CreatePost.cshtml",
+              "RelativeDocumentMoniker": "Proiect_dubla1\\Views\\Posts\\CreatePost.cshtml",
+              "ToolTip": "C:\\Users\\mirun\\source\\repos\\proiect_asp.net\\Proiect_dubla1\\Views\\Posts\\CreatePost.cshtml",
+              "RelativeToolTip": "Proiect_dubla1\\Views\\Posts\\CreatePost.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAwwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-11T16:28:38.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\mirun\\source\\repos\\proiect_asp.net\\Proiect_dubla1\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Proiect_dubla1\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\mirun\\source\\repos\\proiect_asp.net\\Proiect_dubla1\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Proiect_dubla1\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAawCQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T16:18:10.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\mirun\\source\\repos\\proiect_asp.net\\Proiect_dubla1\\Views\\Users\\Details.cshtml",
+              "RelativeDocumentMoniker": "Proiect_dubla1\\Views\\Users\\Details.cshtml",
+              "ToolTip": "C:\\Users\\mirun\\source\\repos\\proiect_asp.net\\Proiect_dubla1\\Views\\Users\\Details.cshtml",
+              "RelativeToolTip": "Proiect_dubla1\\Views\\Users\\Details.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwHMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-11T13:25:50.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mirun\\source\\repos\\proiect_asp.net\\Proiect_dubla1\\Views\\Posts\\Index.cshtml",
+              "RelativeDocumentMoniker": "Proiect_dubla1\\Views\\Posts\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mirun\\source\\repos\\proiect_asp.net\\Proiect_dubla1\\Views\\Posts\\Index.cshtml",
+              "RelativeToolTip": "Proiect_dubla1\\Views\\Posts\\Index.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-11T13:24:07.862Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1099,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             }
           ]
         }

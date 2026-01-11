@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Thought";
+}
+
+<h2>Thought (text)</h2>
+
+<form asp-action="CreateThought" method="post">
+    <textarea name="content" rows="5" style="width:100%"></textarea>
+    <br />
+    <button type="submit">Publică</button>
+</form>
+
+<div asp-validation-summary="All"></div>
