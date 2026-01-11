@@ -1,0 +1,61 @@
+@model IEnumerable<Proiect_dubla1.Models.User>
+
+@{
+    ViewData["Title"] = "Following";
+    var profileUser = ViewBag.ProfileUser as Proiect_dubla1.Models.User;
+    var followingIds = (List<string>)ViewBag.FollowingIds;
+}
+
+<div class="container mt-4">
+    <h2>@profileUser.UserName is following</h2>
+    <hr />
+
+    <div class="row">
+        <div class="col-md-8">
+            @if (!Model.Any())
+            {
+                <p>Not following anyone yet.</p>
+            }
+            else
+            {
+                <div class="list-group">
+                    @foreach (var foll in Model)
+                    {
+                        var isFollowedByMe = followingIds.Contains(foll.Id);
+
+                        <div class="list-group-item d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center gap-3">
+                                <!-- Avatar -->
+                                <img src="@foll.ProfileImagePath" class="rounded-circle" style="width:50px; height:50px; object-fit:cover;" />
+
+                                <!-- Link to profile -->
+                                <a asp-controller="Users" asp-action="Details" asp-route-id="@foll.Id" class="text-decoration-none text-dark fw-bold">
+                                    @foll.UserName
+                                </a>
+                            </div>
+
+                            <!-- Follow/Unfollow button logic -->
+                            @if (User.Identity.IsAuthenticated && foll.Id != User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value)
+                            {
+                                if (isFollowedByMe)
+                                {
+                                    <form asp-controller="Follows" asp-action="Unfollow" asp-route-id="@foll.Id" method="post" class="m-0">
+                                        @Html.AntiForgeryToken()
+                                        <button type="submit" class="btn btn-sm btn-outline-danger">Unfollow</button>
+                                    </form>
+                                }
+                                else
+                                {
+                                    <form asp-controller="Follows" asp-action="Follow" asp-route-id="@foll.Id" method="post" class="m-0">
+                                        @Html.AntiForgeryToken()
+                                        <button type="submit" class="btn btn-sm btn-primary">Follow</button>
+                                    </form>
+                                }
+                            }
+                        </div>
+                    }
+                </div>
+            }
+        </div>
+    </div>
+</div>

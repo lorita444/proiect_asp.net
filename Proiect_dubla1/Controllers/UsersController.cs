@@ -6,6 +6,7 @@ using Proiect_dubla1.Models;
 using System.Security.Claims;
 using UserEntity = Proiect_dubla1.Models.User;
 
+
 public class UsersController : Controller
 {
     private readonly AppDbContext _context;
@@ -157,28 +158,30 @@ public class UsersController : Controller
     {
         if (string.IsNullOrWhiteSpace(id)) return NotFound();
 
-        var me = User.FindFirstValue(ClaimTypes.NameIdentifier); // poate fi null dacă nu e logat
+        var me = User.FindFirstValue(ClaimTypes.NameIdentifier);
 
-        // user-ul al cărui profil îl vezi
         var profile = await _context.Users.FirstOrDefaultAsync(u => u.Id == id);
         if (profile == null) return NotFound();
 
-        // lista followerilor (cei care au FollowedId = id)
+        // Get list of followers (User entities)
         var followers = await _context.Follows
             .Where(f => f.FollowedId == id)
-            .Join(_context.Users,
-                  f => f.FollowerId,
-                  u => u.Id,
-                  (f, u) => new FollowerVm
-                  {
-                      UserId = u.Id,
-                      UserName = u.UserName,
-                      ProfileImagePath = u.ProfileImagePath,
-                      IsFollowedByMe = me != null && _context.Follows.Any(x => x.FollowerId == me && x.FollowedId == u.Id)
-                  })
+            .Select(f => f.Follower) // Navigation property to User
             .ToListAsync();
 
-        ViewBag.ProfileUser = profile;  // ca să afișezi “Followers of X”
+        // Calculate which of these followers are followed by current user
+        var followingIds = new List<string>();
+        if (me != null)
+        {
+            followingIds = await _context.Follows
+                .Where(f => f.FollowerId == me)
+                .Select(f => f.FollowedId)
+                .ToListAsync();
+        }
+
+        ViewBag.ProfileUser = profile;
+        ViewBag.FollowingIds = followingIds; // List of IDs that 'me' follows
+
         return View(followers);
     }
     public async Task<IActionResult> Following(string id)
@@ -190,21 +193,25 @@ public class UsersController : Controller
         var profile = await _context.Users.FirstOrDefaultAsync(u => u.Id == id);
         if (profile == null) return NotFound();
 
+        // Get list of followed users (User entities)
         var following = await _context.Follows
             .Where(f => f.FollowerId == id)
-            .Join(_context.Users,
-                  f => f.FollowedId,
-                  u => u.Id,
-                  (f, u) => new FollowerVm
-                  {
-                      UserId = u.Id,
-                      UserName = u.UserName,
-                      ProfileImagePath = u.ProfileImagePath,
-                      IsFollowedByMe = me != null && _context.Follows.Any(x => x.FollowerId == me && x.FollowedId == u.Id)
-                  })
+            .Select(f => f.Followed) // Navigation property to User
             .ToListAsync();
 
+        // Calculate which of these are followed by current user (intersection)
+        var followingIds = new List<string>();
+        if (me != null)
+        {
+            followingIds = await _context.Follows
+                .Where(f => f.FollowerId == me)
+                .Select(f => f.FollowedId)
+                .ToListAsync();
+        }
+
         ViewBag.ProfileUser = profile;
+        ViewBag.FollowingIds = followingIds;
+
         return View(following);
     }
 
